@@ -1,1 +1,1 @@
-# hactkoberMSIT2020
+hacktoberMSIT2020
