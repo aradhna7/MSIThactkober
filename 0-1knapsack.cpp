@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//bottomup approach
 int bottomup(int* wt,int* profit,int n,int capacity)
 {
     int dp[100][100]={0};
@@ -46,10 +47,12 @@ int knapsack(int *wt,int* profit,int n,int capacity)
 int main()
 {
     int wt[]={2,2,3,1};
+    int a;
     int profit[]={10,20,10,15};
     int n=sizeof(wt)/sizeof(int);
     int capacity;
     cin>>capacity;
+    
     cout<<bottomup(wt,profit,n,capacity)<<endl;
     cout<<knapsack(wt,profit,n,capacity)<<endl;
 }
